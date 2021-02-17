@@ -1,0 +1,160 @@
+.todo-app-grid {
+  position: absolute;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 1fr;
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  width: 1300px;
+  height: 770px;
+  top: 12%;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  -webkit-box-shadow: 6px 6px 12px -1px rgba(0, 0, 0, 0.41);
+  box-shadow: 6px 6px 12px -1px rgba(0, 0, 0, 0.41);
+}
+
+.todo-app-left {
+  padding: 30px;
+  background: linear-gradient(
+    180deg,
+    rgba(240, 240, 240, 1) 0%,
+    rgba(219, 219, 219, 1) 100%
+  );
+}
+.todo-app-right {
+  padding: 30px;
+}
+
+.heading h2 {
+  position: absolute;
+  left: 0;
+  right: 0;
+}
+
+.todo-input {
+  padding: 10px;
+  width: 50%;
+  border: none;
+  outline: none;
+}
+
+.todo-button {
+  padding: 10px;
+  background: rgba(247, 203, 29, 0.509);
+  border: none;
+  outline: none;
+  cursor: pointer;
+  margin: 0 5px 0 5px;
+  width: 35px;
+  transition: 0.3s ease;
+  color: white;
+}
+
+.todo-button:hover {
+  background: rgba(247, 203, 29, 0.809);
+}
+
+.todo-row {
+  display: flex;
+  width: 50%;
+  background: rgba(255, 255, 255, 0.8);
+  padding: 10px;
+  margin: 0 auto;
+  margin-top: 15px;
+  justify-content: space-between;
+  transition: 0.2s ease;
+}
+
+.todo-row:hover {
+  background-color: rgba(196, 196, 196, 0.8);
+}
+
+.arrows-cnt {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  left: 0;
+  right: 0;
+  top: 6%;
+}
+
+.arrow {
+  color: rgb(86, 163, 172);
+  padding: 10px;
+  font-size: 30px;
+  cursor: pointer;
+  transition: 0.2s ease;
+}
+
+.arrow:hover {
+  color: rgba(31, 75, 80, 1);
+}
+
+.clock {
+  position: absolute;
+  left: 5%;
+  cursor: pointer;
+  top: 3%;
+}
+
+#clock-hint {
+  position: absolute;
+  width: 300px;
+  left: 150px;
+}
+
+#vote-btn {
+  border: none;
+  outline: none;
+  background: rgba(247, 203, 29, 0.509);
+  border-radius: 50%;
+  margin: 0 7px 0 7px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+#vote-btn:hover {
+  background: rgba(247, 203, 29, 0.809);
+}
+
+#delete-btn {
+  border: none;
+  outline: none;
+  color: rgba(247, 203, 29, 0.89);
+  border-radius: 50%;
+  margin: 0 7px 0 7px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.icons {
+  display: flex;
+  align-items: center;
+  height: 20px;
+}
+
+@media only screen and (max-width: 1750px) {
+  .todo-app-grid {
+    width: 1000px;
+    height: 650px;
+  }
+}
+@media only screen and (max-width: 1450px) {
+  .todo-app-grid {
+    width: 800px;
+    height: 600px;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .todo-app-grid {
+    width: 400px;
+    height: 1000px;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(2, 1fr);
+  }
+}
