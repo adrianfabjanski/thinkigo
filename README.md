@@ -3,6 +3,9 @@ Made by **Clarisa Abalasei**, **Adrian Fabjanski**, **Asrar Zarif**.
 
 DEMO : https://thinkigo.netlify.app/
 
+login: test@test.com
+pw: test
+
 # Project Requirements
 
 -   node v14 or up
