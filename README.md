@@ -1,6 +1,8 @@
 Final project for Talent Garden Codemaster Bootcamp.
 Made by **Clarisa Abalasei**, **Adrian Fabjanski**, **Asrar Zarif**.
 
+DEMO : https://thinkigo.netlify.app/
+
 # Project Requirements
 
 -   node v14 or up
